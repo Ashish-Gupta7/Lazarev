@@ -1,41 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
+
 <body>
-    <nav class="fixed bg-red-600 flex items-center w-full py-[2vw] px-[4vw] ">
-        <h1>LAZAREV</h1>
-        <div class="nav-part2"></div>
-        <button>Let's Talk</button>
+    <nav class="fixed w-full py-8 px-24 text-white z-50">
+        <div class="w-full flex items-center justify-between relative">
+            <div class="hr_line h-[1px] bg-[#111111] border-b-2 border-b-white w-full absolute -bottom-8"></div> <!-- h-[170px] -bottom-48 -->
+            <h1 class="text-2xl font-bold">LAZAREV.</h1>
+            <div class="nav-part2 flex items-center gap-9">
+                <h2 class="font-semibold text-sm cursor-default">CASE STUDIES</h2>
+                <div class="relative">
+                    <h2 class="stagger_parent font-semibold text-sm cursor-default">AREAS OF EXPERTISE</h2>
+                    <ul class="nav_stagger_effect absolute text-sm font-semibold mt-6 text-nowrap flex flex-col gap-2.5">
+                        <li class="opacity-0 pointer-events-none overflow-hidden"><a href="">🔥AI & ML</a></li>
+                        <li class="opacity-0 pointer-events-none overflow-hidden"><a href="">FinTech</a></li>
+                        <li class="opacity-0 pointer-events-none overflow-hidden"><a href="">Real Estate</a></li>
+                        <li class="opacity-0 pointer-events-none overflow-hidden"><a href="">E-commerce</a></li>
+                        <li class="opacity-0 pointer-events-none overflow-hidden"><a href="">Web3</a></li>
+                    </ul>
+                </div>
+                <div class="relative">
+                    <h2 class="stagger_parent font-semibold text-sm cursor-default">UI UX DESIGN</h2>
+                    <ul class="nav_stagger_effect absolute text-sm font-semibold mt-6 text-nowrap flex flex-col gap-2.5">
+                        <li class="opacity-0 pointer-events-none overflow-hidden"><a href="">UX AUDIT</a></li>
+                        <li class="opacity-0 pointer-events-none overflow-hidden"><a href="">UI DESIGN</a></li>
+                        <li class="opacity-0 pointer-events-none overflow-hidden"><a href="">UX DESIGN</a></li>
+                        <li class="opacity-0 pointer-events-none overflow-hidden"><a href="">UX RESEARCH</a></li>
+                    </ul>
+                </div>
+                <div class="relative">
+                    <h2 class="stagger_parent font-semibold text-sm cursor-default">PRODUCT DESIGN</h2>
+                    <ul class="nav_stagger_effect absolute text-sm font-semibold mt-6 text-nowrap flex flex-col gap-2.5">
+                        <li class="opacity-0 pointer-events-none overflow-hidden"><a href="">SaaS</a></li>
+                        <li class="opacity-0 pointer-events-none overflow-hidden"><a href="">Web App</a></li>
+                        <li class="opacity-0 pointer-events-none overflow-hidden"><a href="">Mobile App</a></li>
+                        <li class="opacity-0 pointer-events-none overflow-hidden"><a href="">Website Design</a></li>
+                    </ul>
+                </div>
+                <div class="relative">
+                    <h2 class="stagger_parent font-semibold text-sm cursor-default">DESIGN PROCESS</h2>
+                    <ul class="nav_stagger_effect absolute text-sm font-semibold mt-6 text-nowrap flex flex-col gap-2.5">
+                        <li class="opacity-0 pointer-events-none overflow-hidden"><a href="">MVP</a></li>
+                        <li class="opacity-0 pointer-events-none overflow-hidden"><a href="">RELAUNCH</a></li>
+                    </ul>
+                </div>
+                <div class="relative">
+                    <h2 class="stagger_parent font-semibold text-sm cursor-default">ABOUT AGENCY</h2>
+                    <ul class="nav_stagger_effect absolute text-sm font-semibold mt-6 text-nowrap flex flex-col gap-2.5">
+                        <li class="opacity-0 pointer-events-none overflow-hidden"><a href="">Our Story</a></li>
+                        <li class="opacity-0 pointer-events-none overflow-hidden"><a href="">Client's Feedback</a></li>
+                        <li class="opacity-0 pointer-events-none overflow-hidden"><a href="">Careers</a></li>
+                        <li class="opacity-0 select-none pointer-events-none cursor-default"><a href="">empty</a></li>
+                        <li class="opacity-0 pointer-events-none overflow-hidden"><a href="">News & Articles</a></li>
+                    </ul>
+                </div>
+            </div>
+            <button>Let's Talk</button>
+        </div>
     </nav>
     <div id="main">
         <div class="page1 h-[100vh] w-full bg-[#111111] flex flex-col items-center justify-center text-white">
             <div class="center text-[142px] tracking-tight leading-[142px] uppercase font-bold text-center">
-                <h1 class="flex items-center justify-center">ai & ml pr<i class="ri-pencil-fill bg-[#0DA34E] text-6xl rounded-full p-6 mt-4"></i>duct</h1>
+                <h1 class="flex items-center justify-center">ai & ml pr<i
+                        class="ri-pencil-fill bg-[#0DA34E] text-6xl rounded-full p-6 mt-4"></i>duct</h1>
                 <h1 class="tracking-normal">design agency</h1>
             </div>
             <p class="text-center text-xl leading-7 font-semibold opacity-90 mt-14">
-                We partner with AI & ML businesses, guiding them from series A 
+                We partner with AI & ML businesses, guiding them from series A
                 <br>
-                to series D and beyond with our expertise in 
+                to series D and beyond with our expertise in
                 <br>
-                <div class="mt-1 text-xl">
-                    <span class="key px-3 pb-[7px] pt-[2px] border rounded-full ">brand design</span>
-                    <span class="key px-3 pb-[7px] pt-[2px] border rounded-full ">user experience</span>
-                    and
-                    <span class="key px-3 pb-[7px] pt-[2px] border rounded-full ">digital product design</span>.
-                </div>
+            <div class="mt-1 text-xl">
+                <span class="key px-3 pb-[7px] pt-[2px] border rounded-full ">brand design</span>
+                <span class="key px-3 pb-[7px] pt-[2px] border rounded-full ">user experience</span>
+                and
+                <span class="key px-3 pb-[7px] pt-[2px] border rounded-full ">digital product design</span>.
+            </div>
             </p>
         </div>
         <div class="page2 h-[100vh] w-full bg-[#111111]"></div>
     </div>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="script.js"></script>
 </body>
+
 </html>
